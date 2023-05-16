@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<title>Angels Sandwich Shop::Reservations</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+
+<header>
+<h1><a href="index.html">Angels Sandwich Shop</a></h1>
+  </header>
+<nav>
+  <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="sandwiches.html">Sandwiches</a></li> 
+       <li><a href="beverages.html">Beverages</a></li>
+       <li><a href="reservations.html">Reservations</a></li>
+       <li><a href="about.html">About</a></li>
+  </ul>     
+  </nav>
+  <div id="wrapper">
+  <div id="reservationsshero">
+  </div>
+  <main>
+      <h2>Reservations at Angels Sandwich Shop, we look forward to seeing you soon!
+      </h2>
+      <h3>Contact Us</h3>
+      <p> Required fields are marked with an asterisk*</p>
+      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="myFName">*FirstName: </label>
+        <input type="text" name="myFName" id="myFName"  required placeholder="Enter your first name">
+        <label for="myLName">*Last Name: </label>
+        <input type="text" name="myLName" id="myLName"  required placeholder="Enter your last name">
+        <label for="myEmail">*E-Mail: </label>
+        <input type="email" name="myEmail" id="myEmail" required placeholder="you@yourDomain.com">
+        <label for="myPhone">*Phone: </label>
+        <input type="tel" name="myPhone" id="myPhone" minlength="10" maxlength="10" required 
+        placeholder="Enter your 10 digit phone number">
+        <label for="myReservation"> Reservation Date: </label>
+        <input type="date" name="myReservation" id="myReservation"> 
+        <label for="myComments">*Comments:</label>
+        <textarea name="myComments" id="myComments" rows="2"
+        cols="20" required ></textarea>
+        <input type="submit" value="Submit">
+      </form>
+  </main>
+  <footer>
+    Copyright &copy; 2020 Pacific Trails Resort<br>
+    <i><a href="afloresfigueroa@ivytech.edu">afloresfigueroa@ivytech.edu></a></i>
+  </footer>
+  </div>
+</body>
+</html>

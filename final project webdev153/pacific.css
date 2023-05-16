@@ -1,0 +1,105 @@
+* { box-sizing: border-box; }
+body { background-color: #dd1e1e;
+     color: #1ba8e9; margin: 0;
+     font-family: Arial, Verdana, sans-serif;    
+}
+header { background-color: #f0e331;
+        color:#f82828;
+        font-family: Georgia, sans-serif;
+        padding: 1em;
+         }
+header a { text-decoration: none;}         
+header a:link{ color: #eba04a}
+header a:visited{ color: #f3f1ed}
+header a:hover {color:#90C7E3}
+h1 { text-align: center; 
+   font-size: 1.5em; }
+nav {  font-size: 1.2em; text-align: center; background-color: #FFFFFF }
+nav a {text-decoration: none;}
+nav a:link {color: #5c7fa3}
+nav a:visited{color: #344873;}
+nav a:hover{color: #a52a2a}
+nav ul{ display: flex; 
+        flex-direction: column; 
+        list-style-type: none;padding-left: 0; margin: 0;}
+nav li {padding-top: .5em; padding-bottom: .5em;
+padding-left: 1em; padding-right: 1em; width: 100%; border-bottom: 1px solid;}        
+h2 {color: #1976D2; font-family: Georgia, sans-serif;}
+dt{font-weight: bold; color: #002171}
+.resort{color: #1976D2; font-size: 1.2em;}
+footer{background-color: #FFFFFF; font-size: .70em; font-style: italic; text-align: center; padding: 1em;}
+h3 {font-family: Georgia, sans-serif;}
+main {padding-left: 1em; padding-right: 1em; display: block; padding-top: 0; padding-bottom: 0; }
+#wrapper { background-color:#FFFFFF ;}
+#homehero{background-image: url(sandwich\ window\ display.jpg);
+          background-repeat: no-repeat;
+          height: 300px;
+          background-size: 100% 100%;
+        }
+#sandwichhero{background-image: url(TheBolognaSandwich.jpg);
+          background-repeat: no-repeat;
+          height: 300px;
+          background-size: 100% 100%; 
+        }
+#beverageshero{background-image: url(drink.jpg); 
+          background-repeat: no-repeat;
+          height: 300px;
+          background-size: 100% 100%;
+        }
+#reservationsshero{background-image: url(female\ server.jpg); 
+          background-repeat: no-repeat;
+          height: 300px;
+          background-size: 100% 100%;
+        }
+section{padding-left: .5em; padding-right: .5em;}
+#mobile{ display: inline;}
+#desktop{display: none;}
+
+table{margin: auto; border: 1px solid #3399CC; width: 90%; border-collapse: collapse;
+}
+input {margin-bottom: .5em; }
+textarea {margin-bottom: .5em;}
+#reshero {background-image: url(ocean.jpg);
+          background-repeat: no-repeat;
+          height: 300px;
+          background-size: 200% 100%; }  
+td , th {padding: 5px; border: 1px solid #3399CC;}
+td{text-align: center;}
+.text{text-align: left;}
+.text2{text-align: center;}
+tr:nth-of-type(even) {background-color: #dfedf8; }
+form {display: flex; 
+       flex-direction: column;
+        padding-left: 1em;
+        width: 80px }
+@media (min-width: 600px) { 
+  h1{font-size: 2em; letter-spacing: .25em;}
+  nav ul {display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; padding-right: 2em;}
+  nav li {width: 12em; border-bottom: none;}
+  section {padding-left: 2em; padding-right: 2em;}
+  #flow{display: flex; flex-direction: row;}
+  #mobile{ display: none;}
+  #desktop{display: inline;}
+  #homehero{ background-size: 100% 100%; }
+  #yurthero{ background-size: 100% 100%; }
+  #trailhero{ background-size: 100% 100%; }
+  #reshero{ background-size: 100% 100%; }
+   form { display: grid;
+        grid-template-columns: 10em 1fr;
+        grid-gap: 1em; 
+        width: 60%; }
+        input[type="submit"] { grid-column: 2/3;
+                                width: 9em; }     
+   }
+
+@media (min-width: 1024px) {
+        body{background-image: linear-gradient(to bottom, #f11414 20%, #29fd29 60%, #c98d48 100%); }
+        nav ul {padding-right: 10%; padding-left: 10%;}
+        #wrapper {margin: auto; width:80% }
+}
+
+
+
+
